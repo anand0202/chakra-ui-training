@@ -555,7 +555,7 @@ export default function Home() {
       <br></br>
       <br></br>
       <h2>
-        Badges are used to highlight an item's status for quick recognition.
+        Badges are used to highlight an items status for quick recognition.
       </h2>
       <Stack direction="row">
         <Badge>Default</Badge>
@@ -571,9 +571,9 @@ export default function Home() {
         Box component with a font family of mono for displaying code.
       </h2>
       <Stack direction="row">
-        <Code children="console.log(welcome)" />
-        <Code colorScheme="red" children="var chakra = 'awesome!'" />
-        <Code colorScheme="yellow" children="npm install chakra" />
+        <Code>console.log(welcome)</Code> 
+        <Code colorScheme="red">var chakra = awesome!</Code> 
+        <Code colorScheme="yellow">npm install chakra</Code> 
       </Stack>
       <br></br>
       <br></br>
@@ -723,7 +723,7 @@ export default function Home() {
         <CircularProgressLabel>40%</CircularProgressLabel>
       </CircularProgress>
       <h2>
-        Setting the progress to indeterminate means you're not able to determine
+        Setting the progress to indeterminate means you are not able to determine
         the value upfront. Pass the isIndeterminate prop to activate this state.
       </h2>
       <CircularProgress isIndeterminate color="green.300" />
@@ -793,7 +793,7 @@ export default function Home() {
         can use all the style props and add responsive styles as well. It
         renders an h2 tag by default.
       </h2>
-      <Heading>I'm a Heading</Heading>
+      <Heading>I am a Heading</Heading>
       <br></br>
       <br></br>
       <br></br>
@@ -1009,7 +1009,7 @@ export default function Home() {
         </Box>
         <Heading size="md" my="2">
           <LinkOverlay href="#">
-            New Year, New Beginnings: Smashing Workshops & Audits
+            New Year, New Beginnings: Smashing Workshops and Audits
           </LinkOverlay>
         </Heading>
         <Text>
@@ -1086,10 +1086,10 @@ export default function Home() {
         components to show or hide them based on a media query.
       </h2>
       <Show above="sm">
-        <Box>This text appears at the "sm" value screen width or greater.</Box>
+        <Box>This text appears at the sm value screen width or greater.</Box>
       </Show>
       <Hide below="md">
-        <Box>This text hides at the "md" value screen width and smaller.</Box>
+        <Box>This text hides at the md value screen width and smaller.</Box>
       </Hide>
 	  <br></br>
       <br></br>
@@ -1160,7 +1160,7 @@ function AlertDialogExample() {
             </AlertDialogHeader>
 
             <AlertDialogBody>
-              Are you sure? You can't undo this action afterwards.
+              Are you sure? You can not undo this action afterwards.
             </AlertDialogBody>
 
             <AlertDialogFooter>
